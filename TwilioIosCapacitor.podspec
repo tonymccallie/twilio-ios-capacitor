@@ -10,8 +10,7 @@
     s.source_files = 'ios/Plugin/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.resource_bundles = {
       'Plugin' => [
-		  'ios/Plugin/Plugin/*.xib',
-		  'ios/Plugin/Plugin/*/Assets.xcassets'
+		  'ios/Plugin/Plugin/*.xib'
       ]
 	}
     s.ios.deployment_target  = '11.0'
