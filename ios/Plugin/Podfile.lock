@@ -10,7 +10,7 @@ DEPENDENCIES:
   - TwilioVideo (~> 2.6)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Capacitor
     - CapacitorCordova
     - TwilioVideo
@@ -22,4 +22,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 18eb6d7c46ec30487274fc971b60ff3257b444ec
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
