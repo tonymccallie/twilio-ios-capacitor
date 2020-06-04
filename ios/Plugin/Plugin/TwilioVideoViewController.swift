@@ -94,6 +94,7 @@ class TwilioVideoViewController: UIViewController {
         
         // `TVIVideoView` supports scaleToFill, scaleAspectFill and scaleAspectFit
         // scaleAspectFit is the default mode when you create `TVIVideoView` programmatically.
+    
         self.remoteView!.contentMode = .scaleAspectFill;
         
         let centerX = NSLayoutConstraint(item: self.remoteView!,
