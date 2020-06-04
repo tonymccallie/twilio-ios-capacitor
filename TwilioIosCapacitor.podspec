@@ -10,9 +10,10 @@
     s.source_files = 'ios/Plugin/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.resource_bundles = {
       'Plugin' => [
-          'ios/Plugin/Plugin/*.xib'
+		  'ios/Plugin/Plugin/*.xib',
+		  'ios/Plugin/Plugin/*/Assets.xcassets'
       ]
-    }
+	}
     s.ios.deployment_target  = '11.0'
     s.dependency 'Capacitor'
     s.dependency 'TwilioVideo', '2.6'
